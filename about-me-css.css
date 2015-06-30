@@ -5,7 +5,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-h1 {color: #06401F}
+h1 {color: #06401F;}
 
 .content-footer, 
 .masthead-heading, 
@@ -18,7 +18,7 @@ h1 {color: #06401F}
   background-size: cover; 
   border-top-style: solid;
   border-top-width: 1em;
-  border-top-color: #A9A9A9} 
+  border-top-color: #A9A9A9;} 
 
 .masthead-intro {
   /* Layout Declarations */ 
@@ -76,7 +76,7 @@ h1 {color: #06401F}
 .content-footer > p {
   /* Typography Declarations */
   font-weight: 300;
-  letter-spacing: 0.05
+  letter-spacing: 0.05;
 }
 
 .questions-section > h2 {
@@ -99,7 +99,7 @@ h2 {
 h1, h2 {font-family: 'Satisfy', cursive;}
 
 .content-footer {
-  background-color: #A6A29C
+  background-color: #A6A29C;
 }
 
 .content-footer > p {color: #06401F;
@@ -123,7 +123,7 @@ h1, h2 {font-family: 'Satisfy', cursive;}
 .social {text-align: center;
   padding: 0;}
 
-.location-section > p > b {color: #06401F}
+.location-section > p > b {color: #06401F;}
 
 @media only screen and (max-width: 640px), (max-device-width: 640px) {
   
