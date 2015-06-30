@@ -1,0 +1,89 @@
+body {
+  /* Typography Declarations*/
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading, 
+.masthead-subheading {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.content-footer 
+ {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.content-footer, 
+.masthead-heading, 
+.first-project, 
+.second-project, 
+h2 {
+	text-align: center;
+}	
+
+p {font-family: "Gentium Book Basic", "Georgia", serif;}
+
+h1, h2 {font-family: 'Satisfy', cursive;}
+
+.masthead {
+	padding: 6em 0;
+	background-image: url(http://i.imgur.com/DIcCRHw.jpg);
+	background-repeat: none; 
+ 	background-size: cover;
+ 	border-top-style: solid;
+  	border-top-width: 1em;
+  	border-top-color: #A9A9A9;
+}
+
+.masthead-heading {
+	font-family: 'Satisfy', cursive;
+  	font-weight: bold;
+  	font-size: 6em;
+}
+
+.social {padding-left: 0px;}
+
+.social > li {
+	display: inline-block;
+}
+
+.content-footer {
+  background-color: #A6A29C;
+}
+
+.content-footer > ul {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #06401F;
+}
+
+.first-project {border-width: 0.5em;
+	border-color: #06401F;}
+
+.content-footer, .masthead {
+  -moz-box-shadow: 0 0 10px #000000;
+  -webkit-box-shadow: 0 0 10px #000000;
+  box-shadow: 0 0 10px #000000;
+}
+
+.location-section > p > b {color: #06401F;}
+
+@media only screen and (max-width: 640px), (max-device-width: 640px) {
+  
+    .masthead {padding: 3em 0;}
+    .masthead-heading {font-size: 2em;}
+  
+}
+
+@media only screen and (max-width: 640px), (max-device-width: 640px) {
+  
+  .content-footer > p {font-size: -0.5em;}
+  .social li a {font-size: 2em;}
+  
+}
